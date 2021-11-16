@@ -1,5 +1,5 @@
 # A Complete salesforce projects on Event Management (In progress)
-This project includes the following topics
+This project includes the following topics 
 
 1.  Salesforce Admin
     - Objects & Relationships
