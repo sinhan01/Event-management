@@ -3,4 +3,8 @@
 //     query text and running the command:
 //     SFDX: Execute SOQL Query with Currently Selected Text
 
-SELECT Id, Name FROM Account
+//SELECT Id, Name FROM Account
+
+//SELECT Id, fullname from ApexClassMember
+
+SELECT ID, NAME FROM Event__c WHERE Live__c = TRUE AND End_Date_Time__c < LAST_N_MONTHS:2
